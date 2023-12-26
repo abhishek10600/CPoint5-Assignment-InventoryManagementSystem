@@ -7,7 +7,7 @@ app.use(express.json())
 app.get("/test", (req, res) => {
     res.status(200).json({
         success: true,
-        message: "Test endpoint is working"
+        message: "Test endpoint is working!"
     })
 })
 
