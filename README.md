@@ -10,7 +10,7 @@ For database I used MongoDB.
 
 I used cloudinary for file storage.(To store images in cloud.)
 
-I create 2 routes.
+I created 2 routes.
 
 Route 1: http://localhost:4000/api/v1/inventory/grocery/addItem
 This is a POST route that is used to add item into the database. It takes name, description, quantity and a image file as input from frontend form.
