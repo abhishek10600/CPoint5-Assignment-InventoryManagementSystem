@@ -13,7 +13,7 @@ I used cloudinary for file storage.(To store images in cloud.)
 I create 2 routes.
 
 Route 1: http://localhost:4000/api/v1/inventory/grocery/addItem
-This is a POST route that is used to add item into the database. It take name, description, quantity and a image file as input from frontend form.
+This is a POST route that is used to add item into the database. It takes name, description, quantity and a image file as input from frontend form.
 
 Route 2: http://localhost:4000/api/v1/inventory/grocery/all
 This is a GET route that is used to get all the items from the database and send it in json format to the frontend.
