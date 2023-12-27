@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="bg-[#2f78b496] md:py-8">
+    <header className="bg-[#3a7419] md:py-8">
       <div className="nav-link md:mx-48 flex items-center justify-between">
-        <Link to="/" className="text-2xl font-bold flex items-center gap-2">
+        <Link to="/" className="text-2xl font-bold flex items-center gap-2 text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"

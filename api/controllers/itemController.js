@@ -35,8 +35,9 @@ export const addItem = async (req, res, next) => {
 
 export const getAllItems = async (req, res, next) => {
     try {
-        const items = await Item.find()
+        const items = await Item.find().sort({ createdAt: -1 })
         res.status(200).json({
+            success: true,
             items
         })
     } catch (error) {

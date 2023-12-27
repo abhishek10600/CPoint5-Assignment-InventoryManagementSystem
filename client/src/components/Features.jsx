@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import AddItemForm from "./AddItemForm";
+import Items from "./Items";
 
 const Features = ({ action }) => {
   const activeLinkClass = (type) => {
     let classes = "flex gap-1 items-center text-xl py-2 px-4 rounded-full";
     if (type === action) {
-      classes = classes + " bg-[#2f78b496]";
+      classes = classes + " bg-[#3a7419] text-white";
     } else {
-      classes = classes + " bg-gray-200";
+      classes = classes + " bg-gray-200 text-black";
     }
     return classes;
   };
@@ -49,7 +50,11 @@ const Features = ({ action }) => {
           Add Items
         </Link>
       </nav>
-      {action === "allitems" && <div className="">All items here</div>}
+      {action === "allitems" && (
+        <>
+          <Items />
+        </>
+      )}
       {action === "additems" && (
         <>
           <AddItemForm />
