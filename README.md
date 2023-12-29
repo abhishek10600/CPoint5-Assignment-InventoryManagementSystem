@@ -21,7 +21,7 @@ This is a GET route that is used to get all the items from the database and send
 #### How to run the backend:
 1. Perform npm i command inside the api folder which will download the node_modules folder for the api. 
 
-2. Then inside the api repository type npm run dev (for development) or npm run stat.
+2. Then inside the api repository type npm run dev (for development) or npm run start.
 
 3. Two endpoints:
    i. POST endoint: http://localhost:4000/api/v1/inventory/grocery/addItem
