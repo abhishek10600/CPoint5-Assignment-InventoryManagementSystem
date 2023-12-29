@@ -32,7 +32,7 @@ This is a GET route that is used to get all the items from the database and send
 
 To develop the frontend of the application I have used ReactJs for the frontend library and Tailwind CSS for styling.
 
-##### How to run the backend:
+##### How to run the frontend:
 1. Inside the client repository type npm i to downlaod the node_modules folder for the client.
 
 2. Inside the client repository type npm run dev. 
